@@ -20,4 +20,5 @@ For Each, Row In data_obj ;add the data lines to the ListView
    LV_Add("", StrSplit(Row, Delimiter)*) ;LV_Add is a variadic function
 
 Gui, Table_View:Show
+return
 }
